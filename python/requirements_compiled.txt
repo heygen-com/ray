@@ -1785,7 +1785,7 @@ python-dateutil==2.8.2
     #   pandas
     #   segment-analytics-python
     #   strictyaml
-python-dotenv==1.2.1
+python-dotenv==1.2.2
     # via testcontainers
 python-jose==3.3.0
     # via moto
