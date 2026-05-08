@@ -1,5 +1,5 @@
 accelerate==0.20.3
-diffusers==0.17.1
+diffusers==0.38.0
 fastapi==0.97.0
 ipywidgets
 matplotlib==3.7.1
