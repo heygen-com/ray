@@ -482,7 +482,7 @@ docutils==0.19
     #   -r python/requirements/lint-requirements.txt
     #   myst-parser
     #   sphinx
-dulwich==0.21.6
+dulwich==1.2.5
     # via comet-ml
 ecdsa==0.18.0
     # via
