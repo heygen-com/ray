@@ -1290,7 +1290,7 @@ oauth2client==4.1.3
     #   -r python/requirements/cloud-requirements.txt
     #   gcs-oauth2-boto-plugin
     #   google-apitools
-oauthlib==3.2.2
+oauthlib==4.0.0
     # via requests-oauthlib
 onnx==1.15.0 ; sys_platform != "darwin" or platform_machine != "arm64"
     # via -r python/requirements/ml/rllib-requirements.txt
