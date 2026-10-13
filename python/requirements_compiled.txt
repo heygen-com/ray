@@ -1787,7 +1787,7 @@ python-dateutil==2.8.2
     #   strictyaml
 python-dotenv==1.2.1
     # via testcontainers
-python-jose==3.3.0
+python-jose==3.5.0
     # via moto
 python-json-logger==2.0.7
     # via jupyter-events
