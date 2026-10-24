@@ -118,7 +118,7 @@ watchfiles==0.19.0
 # Upgrades
 typing-extensions>=4.10
 filelock>=3.16.1
-virtualenv>=20.29
+virtualenv>=21.14.13
 jsonschema>=4.23.0
 attrs>=22.2.0
 openapi-schema-validator>=0.6.3
