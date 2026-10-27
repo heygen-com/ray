@@ -691,7 +691,7 @@ gradio-client==0.6.1
     # via gradio
 graphene==3.4.3
     # via mlflow
-graphql-core==3.2.3
+graphql-core==3.2.12
     # via
     #   graphene
     #   graphql-relay
