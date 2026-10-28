@@ -55,7 +55,7 @@ EOF
 
 build_dashboard() {
   pushd python/ray/dashboard/client
-    choco install nodejs --version=22.4.1 -y
+    choco install nodejs --version=22.23.4 -y
     refreshenv
     # https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
     export NODE_OPTIONS=--openssl-legacy-provider

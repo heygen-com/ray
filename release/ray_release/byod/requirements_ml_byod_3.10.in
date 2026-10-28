@@ -4,6 +4,7 @@
 accelerate
 bitsandbytes
 boto3
+brotli>=1.2.1
 cmake
 crc32c
 datasets

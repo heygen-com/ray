@@ -8,7 +8,7 @@ set -x
 
 DOWNLOAD_DIR=python_downloads
 
-NODE_VERSION="14"
+NODE_VERSION="22.23.4"
 
 PY_MMS=("3.10" "3.11" "3.12" "3.13")
 
@@ -26,15 +26,13 @@ if [[ -n "${SKIP_DEP_RES}" ]]; then
   conda init bash
   source ~/.bash_profile
 
-  # Use the latest version of Node.js in order to build the dashboard.
-  source "$HOME"/.nvm/nvm.sh
-  nvm install $NODE_VERSION
-  nvm use $NODE_VERSION
 fi
 
 # Build the dashboard so its static assets can be included in the wheel.
 pushd python/ray/dashboard/client
   source "$HOME"/.nvm/nvm.sh
+  nvm install "$NODE_VERSION"
+  nvm use "$NODE_VERSION"
   npm ci
   npm run build
 popd
