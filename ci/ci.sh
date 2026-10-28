@@ -143,7 +143,7 @@ build_dashboard_front_end() {
         if [[ -d "${HOME}/.nvm" ]]; then
           set +x  # suppress set -x since it'll get very noisy here
           . "${HOME}/.nvm/nvm.sh"
-          NODE_VERSION="14"
+          NODE_VERSION="22.23.4"
           nvm install $NODE_VERSION
           nvm use --silent $NODE_VERSION
         fi
