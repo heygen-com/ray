@@ -41,3 +41,9 @@ updates:
     reviewers:
       - "scv119"
       - "clarkzinzow"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
